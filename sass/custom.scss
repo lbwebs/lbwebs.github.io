@@ -1,0 +1,323 @@
+
+@import 'compass';
+@import 'compass/css3';
+
+p
+{
+	/* font-size:110%; */
+	font-size:120%;
+	font-weight:575;
+	color:#DCDCDC;
+	font-family:"Times New Roman";
+}
+
+.carousel-default
+{
+	height:auto;
+	width:auto;
+} 
+
+.indexBody
+{
+	/* background: url("../img/backgroundTest.jpg") repeat-y scroll 0 0 black; */
+	/* background-image: url("../img/verticleBackground.jpg") repeat-x  scroll 0 0; */
+	background-color: black;
+	background: url("../img/verticleBackground.jpg") repeat-x  scroll 0 0 black;
+	background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.43) 0%, rgba(0,0,0,0.43) 67%, rgba(0,0,0,1) 100%),(url("../img/verticleBackground.jpg") repeat-x  fixed 0 0); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(0,0,0,0.43)), color-stop(67%,rgba(0,0,0,0.43)), color-stop(100%,rgba(0,0,0,1))),(url("../img/verticleBackground.jpg") repeat-x scroll 0 0); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.43) 0%,rgba(0,0,0,0.43) 67%,rgba(0,0,0,1) 100%),(url("../img/verticleBackground.jpg") repeat-x  fixed 0 0); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.43) 0%,rgba(0,0,0,0.43) 67%,rgba(0,0,0,1) 100%),(url("../img/verticleBackground.jpg") repeat-x  fixed 0 0); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.43) 0%,rgba(0,0,0,0.43) 67%,rgba(0,0,0,1) 100%),(url("../img/verticleBackground.jpg") repeat-x  fixed 0 0); /* IE10+ */
+	background: radial-gradient(ellipse at center,  rgba(0,0,0,0.43) 0%,rgba(0,0,0,0.43) 67%,rgba(0,0,0,1) 100%),(url("../img/verticleBackground.jpg") repeat-x  fixed 0 0); /* W3C */
+ 
+}
+
+.nonIndexBody
+{
+	background-color:black;
+	padding-top:0px;
+/* 	margin-left:50px;
+	margin-right:50px; */
+} 
+
+.infoTextPad
+{
+	padding-right:10px;
+}
+
+.infoArea
+{
+	/* background-color:#DCDCDC; */
+	background-color:black;
+	/* #FFFAF0; */
+	/* #DCDCDC; */
+	/* #F8F8FF; */
+}
+
+.infoAreaBlocks
+{
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:15px;
+}
+
+.imgPad
+{
+	padding-left:10px;
+	padding-top:20px;
+}
+
+.header
+{
+	background-color:black;
+	position: relative;
+}
+
+.carouselBorder
+{
+	height:5px;
+	background-color:#696969
+}
+
+.navigationBottom
+{
+	padding-bottom:2px;
+	position: absolute;
+    bottom: 0; 
+}
+
+.logo
+{
+	padding-top:10px;
+	padding-right:10px;
+	padding-bottom:70px;
+	width:auto;
+	height:auto;
+}
+
+.icon
+{
+	width:40px;
+	height:40px;
+}
+.iconBar
+{
+	padding-top:20px;
+	padding-left:20px;
+}
+
+.text
+{
+ 	font-family:"Times New Roman";
+	color:#89772f;
+}
+
+.navigationDropdown
+{
+ 	font-family:"Times New Roman";
+	color:#89772f !important; 
+	font-size:120%;
+}
+.navigationDropdown:hover
+{
+	color:white !important;
+}
+
+.navigationDropdownBackground
+{
+	background-color:black;
+}
+
+.navigation
+{
+	font-size:120%;
+	font-weight:500; /* 400 is normal */
+	display:inline;
+	text-decoration: none !important;
+}
+
+.navigation:hover
+{
+	color:white;
+}
+
+.ul
+{
+	list-style-type:none;
+}
+
+.li
+{
+	display:inline;
+}
+
+.seperator
+{
+	color:#89772f;
+	font-size:150%;
+	font-weight:bold;
+	padding-left:8px;
+	padding-right:8px;
+	display:inline;
+}
+
+.footer
+{
+	color:#89772f;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.hr
+{
+	color:#DCDCDC;
+}
+
+.test
+{
+	padding-bottom:0px !important;
+	padding-top:0px !important;
+}
+
+.accordionHover
+{
+	/* background-color:#DCDCDC; */
+	background-color:black;
+	border-color:#696969;	
+	/* #FFFAF0; */
+	/* #DCDCDC; */
+	/* #F8F8FF; *
+	/* 696969 */
+}
+
+.accordionHover a:hover{
+    background-color: rgb(238, 238, 238);
+	text-decoration: none;
+}
+
+.carouselBottomMargin
+{
+	margin-bottom: 0px;
+}
+
+.carouselIndicatorHover:hover
+{
+	background-color:white;
+}
+
+.modalHeader
+{
+	border-color: #EEEEEE;
+	border-top-width: 20px;
+	border-style: solid;
+	@include border-radius(15px, 15px);
+}
+
+.modalScroll
+{
+	 position: absolute;
+}
+
+.modalWidth
+{
+	width:100%;
+	margin-left:0px;
+	left:0%;
+	background-color: transparent;
+}
+
+.modalCloseHistory
+{
+	right:50%;
+	position: relative;
+}
+
+.modalCloseCarodan
+{
+	right:50%;
+	position: relative;
+}
+
+.modalClosekaeran
+{
+ 	right:50%; 
+	position: relative;
+}
+
+
+/* .grayscaleHover
+{
+	filter: url(filters.svg#grayscale); 
+	filter: gray;
+	-webkit-filter: grayscale(1); 
+}
+                 
+.grayscaleHover:hover 
+{
+	filter: none;
+	-webkit-filter: grayscale(0);
+}  */
+	
+/* .grayscaleHover
+{
+	filter: none;
+	-webkit-filter: grayscale(0); 
+
+	@include filter(none);
+} */
+                 
+.grayscaleHover:hover 
+{
+/* 	filter: url(filters.svg#grayscale);
+	filter: gray;
+	-webkit-filter: grayscale(1); */
+	
+ @include filter(grayscale(100%));
+ filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+ filter: gray;
+	
+}
+	 
+.carouselNavigation li
+{
+  width: 15px;
+  height: 15px;
+}
+
+.centerPage
+{
+	margin: 0px auto; 
+	float:none;
+}
+
+.mobileHeader
+{
+ 	font-family:"Times New Roman";
+}
+
+.img
+{
+	height:auto;
+	width:auto;
+}
+
+.mobileBottomMargin
+{
+	margin-bottom:0px;
+}
+
+.test
+{
+ background-color: white;
+}
+
+.roundCorners
+{
+	@include border-radius(5px, 5px); 
+}
+
+.eventWellColor
+{
+	background-color: black;/* #696969; */
+	border-color: #696969;
+}
